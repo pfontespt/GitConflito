@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Teste conflito.
         self.mostrarOla()
+        // adoramos cafe ou nao.
     }
     
     func mostrarOla() {
