@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Teste conflito.
+        self.mostrarOla()
+    }
+    
+    func mostrarOla() {
+        print("ola")
     }
 
     override func didReceiveMemoryWarning() {
